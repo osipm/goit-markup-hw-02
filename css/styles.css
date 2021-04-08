@@ -1,5 +1,17 @@
-body{
+:root{--mein-text-cl:#757575;
+--main-title-cl:#FFFFFF;
+--title-cl:#212121;
+--link-cl:#2196F3;
 
-font-family: 'Roboto', sans-serif;}
+--main-text-cl:'Roboto', sans-serif;
+--title-text-cl:'Raleway', sans-serif;
 
-<!__ font-family: 'Raleway', sans-serif; __>
+ }
+
+
+
+
+body{font-family: var(--main-text-cl);}
+
+
+/*font-family: 'Raleway', sans-serif/
