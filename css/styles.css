@@ -1,26 +1,26 @@
-:root{--mein-text-cl:#757575;
---main-title-cl:#FFFFFF;
---title-cl:#212121;
---link-cl:#2196F3;
+:root{
+    --mein-text-cl:#757575;
+    --main-title-cl:#FFFFFF;
+    --title-cl:#212121;
+    --link-cl:#2196F3;
 
---main-text-cl:'Roboto', sans-serif;
---title-text-cl:'Raleway', sans-serif;
+    --main-text-cl:'Roboto', sans-serif;
+    --title-text-cl:'Raleway', sans-serif;
 
---blak-bg:#2F303A;
---bg:#F5F4FA;
---bg:#E5E5E5;
---
-
- }
-
+    --blak-bg:#2F303A;
+    --bg:#F5F4FA;
+    --bg:#E5E5E5;
+}
 
 
 
-body{font-family: var(--main-text-cl);
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color:var(--mein-text-cl)}
+
+body{   
+    font-family: var(--main-text-cl);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--mein-text-cl)}
 
 .link{
     color: var(--title-cl);
@@ -30,7 +30,8 @@ color:var(--mein-text-cl)}
 .link:hover,
 .link:focus{color:var(--link-cl);}
 
-.logo{font-family: var(--title-text-cl);
+.logo{
+    font-family: var(--title-text-cl);
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -93,13 +94,44 @@ color:var(--mein-text-cl)}
 
    .text-team-card{
         font-size: 16px;
-    line-height: 1.18;
+        line-height: 1.18;
     }
 
    .footer{background-color: var(--blak-bg);}
+
    .Studio-cl{color:var(--main-title-cl)}
+
    .address-street{color: var(--main-title-cl)}
 
   
    .contacts-addres{color: rgba(255, 255, 255, 0.6);}
 
+   .btn-filtr{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        color:var(--title-cl)    
+   }
+
+   .btn-filtr:hover,
+   .btn-filtr:focus{
+       color: var(--main-title-cl);
+       background-color: var(--link-cl);
+       cursor: pointer;
+   }
+
+   .title-portfolio{
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--title-cl);
+   }
+
+
+
+   .text-portfolio{
+        font-size: 16px;
+        line-height: 1.87;
+     }
